@@ -1,9 +1,10 @@
 require("dotenv").config();
 const express = require("express");
 const cors = require("cors");
-const mongoose = require("./config/db");
 const { generalLimiter, loginLimiter } = require("./middleware/rateLimiter");
-const { logger, morganMiddleware, logError } = require("./middleware/logger");
+const { morganMiddleware, logError } = require("./middleware/logger");
+const setupSwagger = require("./utils/swaggerConfig");
+
 
 //Routes
 const authRoutes = require("./routes/authRoutes");
@@ -28,6 +29,7 @@ app.use((err, req, res, next) => {
   res.status(err.status || 500).json({ error: err.message || "Internal Server Error" });
 });
 
+setupSwagger(app);
   
 const PORT = process.env.PORT || 5000;
 app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
