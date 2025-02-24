@@ -24,7 +24,12 @@ const UploadResume = () => {
 
       setResumeData(response.data);
     } catch (err) {
-      setError("Failed to process resume. Please check the URL and try again.");
+      if (err.response && err.response.status === 429) {
+        setError("Too many requests. Please wait before trying again.");
+      } else {
+        setError("Failed to process resume. Please check the URL and try again.");
+      }
+      
     }
 
     setLoading(false);

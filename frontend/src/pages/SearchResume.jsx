@@ -24,7 +24,12 @@ const SearchResume = () => {
 
       setSearchResults(response.data);
     } catch (err) {
-      setError("No matching resumes found.");
+      if (err.response && err.response.status === 429) {
+        setError("Too many requests. Please wait before trying again.");
+      } else {
+        setError("No matching resumes found.");
+      }
+      
     }
 
     setLoading(false);

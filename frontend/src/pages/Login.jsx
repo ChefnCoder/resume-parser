@@ -37,7 +37,12 @@ const Login = () => {
       
     } catch (err) {
       console.error("Login Error:", err.response ? err.response.data : err);
-      setError("Invalid credentials. Try again.");
+      if (err.response && err.response.status === 429) {
+        setError("Too many login attempts. Please try again later.");
+      } else {
+        setError("Invalid credentials. Try again.");
+      }
+      
     }
 
   };
