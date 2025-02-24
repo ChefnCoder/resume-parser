@@ -18,3 +18,11 @@
 2025-02-24T19:13:21.954Z [INFO]: ::1 - - [24/Feb/2025:19:13:21 +0000] "POST /api/resume/search HTTP/1.1" 404 38 "-" "PostmanRuntime/7.43.0"
 2025-02-24T19:14:59.932Z [ERROR]: ERROR: Test error - Something went wrong! | Route: POST /api/auth/login | Status: 500
 2025-02-24T19:14:59.938Z [INFO]: ::1 - - [24/Feb/2025:19:14:59 +0000] "POST /api/auth/login HTTP/1.1" 500 46 "-" "PostmanRuntime/7.43.0"
+2025-02-24T19:50:29.338Z [INFO]: ::1 - - [24/Feb/2025:19:50:29 +0000] "POST /api/auth/login HTTP/1.1" 200 175 "-" "PostmanRuntime/7.43.0"
+2025-02-24T19:50:52.618Z [INFO]: ::1 - - [24/Feb/2025:19:50:52 +0000] "POST /api/resume/search HTTP/1.1" 200 4749 "-" "PostmanRuntime/7.43.0"
+2025-02-24T19:51:20.341Z [INFO]: ::1 - - [24/Feb/2025:19:51:20 +0000] "POST /api/resume/search HTTP/1.1" 200 4749 "-" "PostmanRuntime/7.43.0"
+2025-02-24T19:51:21.823Z [INFO]: ::1 - - [24/Feb/2025:19:51:21 +0000] "POST /api/resume/search HTTP/1.1" 200 4749 "-" "PostmanRuntime/7.43.0"
+2025-02-24T19:51:22.899Z [INFO]: ::1 - - [24/Feb/2025:19:51:22 +0000] "POST /api/resume/search HTTP/1.1" 200 4749 "-" "PostmanRuntime/7.43.0"
+2025-02-24T19:51:34.475Z [INFO]: ::1 - - [24/Feb/2025:19:51:34 +0000] "POST /api/resume/search HTTP/1.1" 200 4749 "-" "PostmanRuntime/7.43.0"
+2025-02-24T19:51:36.613Z [INFO]: ::1 - - [24/Feb/2025:19:51:36 +0000] "POST /api/resume/search HTTP/1.1" 200 4749 "-" "PostmanRuntime/7.43.0"
+2025-02-24T19:51:38.875Z [INFO]: ::1 - - [24/Feb/2025:19:51:38 +0000] "POST /api/resume/search HTTP/1.1" 200 4749 "-" "PostmanRuntime/7.43.0"
