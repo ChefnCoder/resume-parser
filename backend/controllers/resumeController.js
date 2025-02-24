@@ -108,7 +108,13 @@ exports.extractResumeData = async (req, res) => {
     const applicant = new Applicant(parsedData);
     await applicant.save();
 
-    res.status(200).json(parsedData);
+    const decryptedData = {
+      ...parsedData,
+      name: decrypt(parsedData.name), // Decrypt name
+      email: decrypt(parsedData.email) // Decrypt email
+    };
+    
+    res.status(200).json(decryptedData);
   } catch (error) {
     console.error("Resume Processing Error:", error);
     res.status(500).json({ error: "Internal Server Error." });
