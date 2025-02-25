@@ -112,7 +112,7 @@ node server.js
 
 ### **2️⃣ Start Redis Server (Ensure Redis is Running)**
 ```sh
-sudo service redis-server start  # For Linux/Mac/WSL
+sudo service redis-server start  
 ```
 
 ### **3️⃣ Start Frontend**
