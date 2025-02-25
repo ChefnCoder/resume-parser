@@ -45,7 +45,18 @@ In addition to the assignment, we implemented **extra features** for security, p
 - **📜 Swagger API Documentation** available at `/api-docs`.
 
 ---
+## 📸 **Screenshots**
+| **Login Page** | **Resume Upload** | **Resume Search** |
+|---------------|-----------------|----------------|
+| ![Login](./frontend/public/login.png) | ![Upload](./frontend/public/upload.png) | ![Search](./frontend/public/search.png) |
 
+---
+## 📽️ Demo Video
+
+[![Watch the Demo](./frontend/public/image.png)](https://youtu.be/Q0NppBTD_oI)
+
+
+---
 ## ⚙️ **Tech Stack**
 ### **Frontend**
 - **React (Vite)**
@@ -150,13 +161,6 @@ resume-parser/
 ## ✅ **API Documentation (Swagger)**
 Once the backend is running, open:
 📄 [`http://localhost:5000/api-docs`](http://localhost:5000/api-docs)
-
----
-
-## 📸 **Screenshots**
-| **Login Page** | **Resume Upload** | **Resume Search** |
-|---------------|-----------------|----------------|
-| ![Login](./frontend/public/login.png) | ![Upload](./frontend/public/upload.png) | ![Search](./frontend/public/search.png) |
 
 ---
 
