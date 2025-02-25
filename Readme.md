@@ -64,8 +64,10 @@ In addition to the assignment, we implemented **extra features** for security, p
 - **Joi for Input Validation**
 
 ### **Deployment**
-- **Backend:** : https://resume-parser-0tn4.onrender.com
-- **Frontend:** : https://resume-parser-tanmay.netlify.app
+- **Backend:**  [`https://resume-parser-0tn4.onrender.com`](https://resume-parser-0tn4.onrender.com)
+- **Frontend:** [`https://resume-parser-tanmay.netlify.app`](https://resume-parser-tanmay.netlify.app)
+- **Swagger Api Documentation:** [`http://localhost:5000/api-docs`](http://localhost:5000/api-docs)
+
 
 ---
 
