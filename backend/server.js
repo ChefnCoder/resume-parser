@@ -15,7 +15,10 @@ const app = express();
 
 //Middleware
 app.use(express.json());
-app.use(cors());
+app.use(cors({
+  origin: ["https://resume-parser-0tn4.onrender.com", "https://resume-parser-tanmay.netlify.app","http://localhost:5173"],
+  credentials: true 
+}));
 app.use(generalLimiter); 
 app.use(morganMiddleware);
 
