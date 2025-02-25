@@ -97,8 +97,7 @@ PORT=5000
 MONGO_URI=your_mongodb_connection_string
 JWT_SECRET=your_jwt_secret
 GEMINI_API_KEY=your_google_gemini_api_key
-REDIS_HOST=127.0.0.1
-REDIS_PORT=6379
+ENCRYPTION_KEY=your_key
 ```
 
 ---
