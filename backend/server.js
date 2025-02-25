@@ -1,6 +1,7 @@
 require("dotenv").config();
 const express = require("express");
 const cors = require("cors");
+const mongoose = require("./config/db")
 const { generalLimiter, loginLimiter } = require("./middleware/rateLimiter");
 const { morganMiddleware, logError } = require("./middleware/logger");
 const setupSwagger = require("./utils/swaggerConfig");
@@ -25,7 +26,7 @@ app.use("/api/resume", resumeRoutes);
 
 
 app.use((err, req, res, next) => {
-  logError(err, req); // ✅ Log errors as [ERROR]
+  logError(err, req); 
   res.status(err.status || 500).json({ error: err.message || "Internal Server Error" });
 });
 
