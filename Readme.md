@@ -64,8 +64,8 @@ In addition to the assignment, we implemented **extra features** for security, p
 - **Joi for Input Validation**
 
 ### **Deployment**
-- **Backend:** 
-- **Frontend:** 
+- **Backend:** : https://resume-parser-0tn4.onrender.com
+- **Frontend:** : https://resume-parser-tanmay.netlify.app
 
 ---
 
