@@ -1,4 +1,3 @@
-
 # 📝 Resume Parser - AI-Powered Resume Analysis
 
 ![Tech Stack](https://img.shields.io/badge/Tech%20Stack-MERN-blueviolet) ![Status](https://img.shields.io/badge/Status-Complete-brightgreen) 
@@ -53,8 +52,7 @@ In addition to the assignment, we implemented **extra features** for security, p
 ---
 ## 📽️ Demo Video
 
-[![Watch the Demo](./frontend/public/image.png)](https://youtu.be/Q0NppBTD_oI)
-
+https://github.com/user-attachments/assets/6c517ca5-aa3e-4783-bb9b-2c90c0e583ad
 
 ---
 ## ⚙️ **Tech Stack**
