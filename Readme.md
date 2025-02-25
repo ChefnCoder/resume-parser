@@ -156,7 +156,7 @@ Once the backend is running, open:
 ## 📸 **Screenshots**
 | **Login Page** | **Resume Upload** | **Resume Search** |
 |---------------|-----------------|----------------|
-| ![Login](https://via.placeholder.com/300) | ![Upload](https://via.placeholder.com/300) | ![Search](https://via.placeholder.com/300) |
+| ![Login](./frontend/public/login.png) | ![Upload](./frontend/public/upload.png) | ![Search](./frontend/public/search.png) |
 
 ---
 
