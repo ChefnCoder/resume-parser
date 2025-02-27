@@ -1,4 +1,3 @@
-
 # 📝 Resume Parser - AI-Powered Resume Analysis
 
 ![Tech Stack](https://img.shields.io/badge/Tech%20Stack-MERN-blueviolet) ![Status](https://img.shields.io/badge/Status-Complete-brightgreen) 
@@ -45,7 +44,17 @@ In addition to the assignment, we implemented **extra features** for security, p
 - **📜 Swagger API Documentation** available at `/api-docs`.
 
 ---
+## 📸 **Screenshots**
+| **Login Page** | **Resume Upload** | **Resume Search** |
+|---------------|-----------------|----------------|
+| ![Login](./frontend/public/login.png) | ![Upload](./frontend/public/upload.png) | ![Search](./frontend/public/search.png) |
 
+---
+## 📽️ Demo Video
+
+https://github.com/user-attachments/assets/6c517ca5-aa3e-4783-bb9b-2c90c0e583ad
+
+---
 ## ⚙️ **Tech Stack**
 ### **Frontend**
 - **React (Vite)**
@@ -64,8 +73,10 @@ In addition to the assignment, we implemented **extra features** for security, p
 - **Joi for Input Validation**
 
 ### **Deployment**
-- **Backend:** 
-- **Frontend:** 
+- **Backend:**  [`https://resume-parser-0tn4.onrender.com`](https://resume-parser-0tn4.onrender.com)
+- **Frontend:** [`https://resume-parser-tanmay.netlify.app`](https://resume-parser-tanmay.netlify.app)
+- **Swagger Api Documentation:** [`https://resume-parser-0tn4.onrender.com/api-docs/`](https://resume-parser-0tn4.onrender.com/api-docs/)
+
 
 ---
 
@@ -95,8 +106,7 @@ PORT=5000
 MONGO_URI=your_mongodb_connection_string
 JWT_SECRET=your_jwt_secret
 GEMINI_API_KEY=your_google_gemini_api_key
-REDIS_HOST=127.0.0.1
-REDIS_PORT=6379
+ENCRYPTION_KEY=your_key
 ```
 
 ---
@@ -110,7 +120,7 @@ node server.js
 
 ### **2️⃣ Start Redis Server (Ensure Redis is Running)**
 ```sh
-sudo service redis-server start  # For Linux/Mac/WSL
+sudo service redis-server start  
 ```
 
 ### **3️⃣ Start Frontend**
@@ -149,13 +159,6 @@ resume-parser/
 ## ✅ **API Documentation (Swagger)**
 Once the backend is running, open:
 📄 [`http://localhost:5000/api-docs`](http://localhost:5000/api-docs)
-
----
-
-## 📸 **Screenshots**
-| **Login Page** | **Resume Upload** | **Resume Search** |
-|---------------|-----------------|----------------|
-| ![Login](https://via.placeholder.com/300) | ![Upload](https://via.placeholder.com/300) | ![Search](https://via.placeholder.com/300) |
 
 ---
 
